@@ -40,4 +40,6 @@ function maxContributionsToParty(data) {
   return _.max(partyContributionObjects(data), function(record) {return record.amount;});
 }
 
-console.log(maxContributionsToParty(campaignContributions));
+// console.log(maxContributionsToParty(campaignContributions));
+
+//function contributorTotals(data)
